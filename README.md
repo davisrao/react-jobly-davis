@@ -2,12 +2,12 @@
 
 this project was built w/ Create React App [Create React App](https://github.com/facebook/create-react-app).
 
-## Still ToDo:
-Add tests across the board
-Add in ability for users to apply for jobs
-Use S3 for resume upload
-DRY up codebase and views
-Put related sections into own folders so src is not so crowded: API, view components, Routes/Nav, App for example 
+## ToDo:
+* Add tests across the board
+* Add in ability for users to apply for jobs
+* Use S3 for resume upload
+* DRY up codebase and views
+* Put related sections into own folders so src is not so crowded: API, view components, Routes/Nav, App for example 
 
 ## Available Scripts
 
