@@ -52,7 +52,7 @@ function Navigation({ handleLogout }) {
             </NavLink>
           </div>
           <div className="p-2">
-            <button className="btn-link" onClick={handleLogout}>
+            <button type="button" className="btn btn-primary btn-sm btn-outline-light" onClick={handleLogout}>
               {`Logout ${userData.firstName}`}
             </button>
           </div>

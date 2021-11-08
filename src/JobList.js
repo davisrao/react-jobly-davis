@@ -59,7 +59,11 @@ function JobList() {
             {
                 isLoading
                     ? <i>Loading...</i>
-                    : <JobCardList jobs={jobs} />
+                    : <div>
+                    <h2>Jobs</h2>
+                    <JobCardList jobs={jobs} />
+                    </div>
+
             }
         </div>
     );

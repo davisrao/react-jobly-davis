@@ -56,7 +56,11 @@ function CompanyList() {
             {
                 isLoading
                     ? <i>Loading...</i>
-                    : <CompanyCardList companies={companies} />
+                    
+                    : <div>     
+                    <h2>Companies</h2>
+                    <CompanyCardList companies={companies} />
+                    </div>  
             }
 
         </div>

@@ -7,6 +7,9 @@ import JoblyApi from './api';
 import { useState, useEffect } from "react"
 import UserContext from './userContext';
 import { Redirect } from 'react-router-dom';
+import useLocalStorage from "./useLocalStorage";
+
+export const TOKEN_STORAGE_ID = "jobly-token";
 
 /**
  * App component rendering navbar and routes
@@ -22,7 +25,7 @@ import { Redirect } from 'react-router-dom';
  */
 function App() {
   const [userData, setUserData] = useState(null);
-  const [token, setToken] = useState("");
+  const [token, setToken] = useLocalStorage(TOKEN_STORAGE_ID);
   const [infoLoaded, setInfoLoaded] = useState(false);
   const [redirectRequired, setRedirectRequired] = useState(false);
 

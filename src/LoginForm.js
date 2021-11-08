@@ -61,7 +61,7 @@ function LoginForm({ handleLogin }) {
 
   return (
     <div className="row justify-content-center pt-3">
-      <form className="LoginForm col-8" onSubmit={handleSubmit}>
+      <form className="LoginForm col-4" onSubmit={handleSubmit}>
 
         <div className="form-group">
           <label htmlFor="LoginForm-username">
@@ -91,7 +91,7 @@ function LoginForm({ handleLogin }) {
         </div>
         {message && <Alert message={message} />}
         <div>
-          <button className="btn-primary rig btn btn-sm ProfileForm-Button">
+          <button className="btn-primary rig btn btn-sm ProfileForm-Button mt-3 col-3">
             Log In
           </button>
         </div>

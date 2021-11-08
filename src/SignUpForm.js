@@ -63,7 +63,7 @@ function SignUpForm({ handleSignUp }) {
 
     <div className="row justify-content-center pt-3">
       <h1>Sign Up</h1>
-        <form className="SignUpForm col-8" onSubmit={handleSubmit}>
+        <form className="SignUpForm col-4" onSubmit={handleSubmit}>
 
           <div className="form-group">
             <label htmlFor="SignUpForm-username">
@@ -132,7 +132,7 @@ function SignUpForm({ handleSignUp }) {
           </div>
           {message && <Alert message={message} />}
           <div>
-            <button className="btn-primary rig btn btn-sm SignUpForm-Button">
+            <button className="btn-primary rig btn btn-sm SignUpForm-Button mt-3">
               Submit
             </button>
           </div>

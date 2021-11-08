@@ -24,9 +24,10 @@ function Homepage() {
         <div className="row min-vh-100 align-items-center">
             <div className="Homepage">
                 <h1 className="Homepage-header">Jobly</h1>
-                <p className="Homepage-tagline">
-                    All the jobs in one convenient place!</p>
-                {userData && <h2>Welcome back, {userData.firstName}</h2>}
+                {userData && <h4>Welcome back, {userData.firstName}</h4>}
+                {!userData && <h5 className="Homepage-tagline">
+                    All the jobs in one convenient place!</h5>}
+
             </div>
         </div>
     );
