@@ -1,6 +1,13 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+this project was built w/ Create React App [Create React App](https://github.com/facebook/create-react-app).
+
+## Still ToDo:
+Add tests across the board
+Add in ability for users to apply for jobs
+Use S3 for resume upload
+DRY up codebase and views
+Put related sections into own folders so src is not so crowded: API, view components, Routes/Nav, App for example 
 
 ## Available Scripts
 
@@ -15,6 +22,7 @@ The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
 ### `npm test`
+Per the above, need to add more tests to this application. When that happens....
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
